@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "auta"
+version = "0.0.0"
+description = "Task repo"
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<=3.10.6"
+pytest = "7.1.3"
