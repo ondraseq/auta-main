@@ -11,3 +11,8 @@ def test_equal():
     a1 = Auta("Skoda", "Fabia", "2L", "Modra")
     a2 = Auta("Skoda", "Fabia", "2L", "Modra")
     assert a1 == a2
+
+def test_is():
+    a1 = Auta("Skoda", "Fabia", "2L", "Modra")
+    a2 = Auta("Skoda", "Fabia", "2L", "Modra")
+    assert a1 is not a2
